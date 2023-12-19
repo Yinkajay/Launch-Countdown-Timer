@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js" defer></script>
   <title>Frontend Mentor | Launch countdown timer</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  We're launching soon
+  <div class="stars">
+    <img src="./images/bg-stars.svg" alt="stars">
+  </div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
+  <main class="container">
+    <div class="">
+      <h1>We're launching soon</h1>
+    </div>
+
+    <section class="timer">
+      <div class="time-segment">
+        <div class="display">
+          <h2 class="days">0</h2>
+        </div>
+        <p>DAYS</p>
+      </div>
+      <div class="time-segment">
+        <div class="display">
+          <h2 class="hours">0</h2>
+        </div>
+        <p>HOURS</p>
+      </div>
+      <div class="time-segment">
+        <div class="display">
+          <h2 class="minutes">0</h2>
+        </div>
+        <p>MINUTES</p>
+      </div>
+      <div class="time-segment
+      ">
+        <div class="display">
+          <h2 class="seconds">0</h2>
+        </div>
+        <p>SECONDS</p>
+    </section>
+  </main>
+  </div>
+
+  <div class="socials">
+    <div class="facebook">
+      <img src="./images/icon-facebook.svg" alt="facebook-icon">
+    </div>
+    <div class="pinterest">
+      <img src="./images/icon-pinterest.svg" alt="pinterest-icon">
+    </div>
+    <div class="instagram">
+      <img src="./images/icon-instagram.svg" alt="instagram-icon">
+    </div>
+  </div>
+
+  <div class="mountains">
+    <img src="./images/pattern-hills.svg" alt="mountains">
+  </div>
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Yinkajay">Yinx</a>.
   </div>
 </body>
+
 </html>
